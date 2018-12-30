@@ -183,6 +183,8 @@ namespace Microsoft.CodeAnalysis.PooledObjects
 		{
 			Validate(obj);
 			ForgetTrackedObject(obj);
+			
+			obj.Reset ();
 
 			if (_firstItem == null)
 			{
