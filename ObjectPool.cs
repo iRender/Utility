@@ -12,6 +12,8 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 
+// test git reset
+
 #if DETECT_LEAKS
 using System.Runtime.CompilerServices;
 #endif
